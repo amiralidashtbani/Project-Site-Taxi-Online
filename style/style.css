@@ -2,4 +2,75 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: shabnam;
+}
+
+@font-face {
+    font-family: shabnam;
+    src: url(../fonts/Shabnam.woff) format('woff');
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir.woff) format('woff');
+}
+
+@font-face {
+    font-family: vazir-fd;
+    src: url(../fonts/Vazir-FD-WOL.woff) format('woff');
+}
+
+@font-face {
+    font-family: yekan;
+    src: url(../fonts/Yekan.woff) format('woff');
+}
+
+
+/* classes BEM ==> */
+
+.btn {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+
+.header {
+    background-color: #f8f8f8;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+
+.logo-title {
+    font-family: yekan;
+    font-size: 28px;
+}
+
+.menu-header-container {
+    display: flex;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-header {
+    margin-right: 15px;
 }
