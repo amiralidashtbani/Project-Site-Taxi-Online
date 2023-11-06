@@ -29,6 +29,7 @@
 /* classes BEM ==> */
 
 .btn {
+    display: inline-block;
     background-color: #ff5722;
     color: #fff;
     padding: 10px 20px;
@@ -164,17 +165,22 @@ a {
 }
 
 .header-img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
     position: absolute;
     left: 50px;
-    bottom: -170px;
+    bottom: -200px;
 }
 
 
+.section {
+    margin-top: 130px;
+}
+
 
 .section-1 {
-    margin-top: 130px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 100px;
 }
 
 .title-section-1 {
@@ -185,13 +191,20 @@ a {
 
 .item-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
 .item {
     text-align: center;
     align-items: center;
+    opacity: 0.5;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.item:hover {
+    opacity: 1;
 }
 
 .item-img {
@@ -209,13 +222,14 @@ a {
     margin-bottom: 20px;
 }
 
-.text-description-item {
+.text-description-item
+, .text-description-section {
     font-size: 18px;
     line-height: 32px;
     padding-left: 80px;
 }
 
-.img-description {
+.img-description , .img-section {
     width: 500px;
 }
 
@@ -246,3 +260,32 @@ a {
 .d-item7 {
     display: none;
 }
+
+.nav-content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-section2 ,
+.title-section3{
+    margin-bottom: 20px;
+}
+
+.link-section2 {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.fa-angle-left , .link-section2-text {
+    color: #ff5722;
+    font-size: 18px;
+}
+
+.btn-section2 ,
+.btn-section3 {
+    margin-top: 20px;
+}
+
