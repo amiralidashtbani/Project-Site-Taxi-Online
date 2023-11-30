@@ -42,6 +42,11 @@
     color: #000;
     padding: 10px 20px;
     border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.btn2:hover {
+    box-shadow: 1px 1px 10px #eeeeee81;
 }
 
 .btn3 {
@@ -51,6 +56,15 @@
     padding: 10px 20px;
     border: 1px solid #fff;
     border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.btn3:hover {
+    background-color: #ffffff23;
+}
+
+.icon-btn-header {
+    margin-left: 15px;
 }
 
 .btn4 {
@@ -89,6 +103,7 @@ ul li {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 footer {
@@ -116,6 +131,11 @@ footer {
 .logo-title {
     font-family: yekan;
     font-size: 28px;
+    transition: all 0.3s;
+}
+
+.logo-title:hover {
+    color: #d84011;
 }
 
 .menu-header-container {
@@ -127,8 +147,26 @@ footer {
     align-items: center;
 }
 
+.item-menu-header {
+    color: rgba(0, 0, 0, 0.686);
+    transition: all 0.2s;
+}
+
+.item-menu-header:hover {
+    color: #ff5722;
+}
+
 .btn-header {
     margin-right: 15px;
+    transition: all 0.3s;
+}
+
+.btn-header:hover {
+    box-shadow: 1px 1px 10px #ff5622b9;
+}
+
+.text-btn-header {
+    color: #fff;
 }
 
 
@@ -149,7 +187,7 @@ footer {
 
 .header-right-box {
     background-color: #ff562271;
-    max-width: 500px;
+    max-width: 530px;
     padding: 35px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -306,7 +344,14 @@ footer {
 .btn-section2 ,
 .btn-section3 {
     margin-top: 20px;
+    transition: all 0.3s;
 }
+
+.btn-section2:hover ,
+.btn-section3:hover {
+    background-color: #ff5622da;
+}
+
 
 .section-4 {
     background-image: linear-gradient(to right, rgba(11, 11, 82, 0.664) , #eeeeee3f) , url(../img/img-background.jpg);
@@ -425,6 +470,11 @@ footer {
 
 .btn-section5 {
     margin: 50px 0px 50px 20px;
+    transition: all 0.3s;
+}
+
+.btn-section5:hover {
+    background-color: #2282ffc4;
 }
 
 .title-section6 {
@@ -438,8 +488,18 @@ footer {
     grid-column-gap: 20px;
 }
 
+.item-section6 {
+    transition: all 0.3s;
+    padding: 10px;
+}
+
+.item-section6:hover {
+    box-shadow: 1px 1px 10px #00000028;
+}
+
 .title-item-section6 {
     font-size: 20px;
+    margin-top: 20px;
     margin-bottom: 15px;
 }
 
@@ -521,6 +581,11 @@ footer {
 .footer-link {
     color: #fff;
     font-size: 13px;
+    transition: all 0.3s;
+}
+
+.footer-link:hover {
+    color: #ff5722;
 }
 
 .namads {
@@ -545,6 +610,14 @@ footer {
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+.icon-social {
     font-size: 25px;
     color: #8a8a8a;
+    transition: all 0.3s;
+}
+
+.icon-social:hover {
+    color: #ff5722;
 }
