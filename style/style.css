@@ -115,6 +115,8 @@ footer {
 
 /* styles ==> */
 
+/* home page styling codes ==> */
+
 .header-top {
     background-color: #f8f8f8;
 }
@@ -621,3 +623,161 @@ footer {
 .icon-social:hover {
     color: #ff5722;
 }
+
+
+/* home page styling codes ^ */
+
+
+/* online taxi download button page styling codes -pdto ==> */
+
+.nav-pdto-section1 {
+    display: flex;
+}
+
+.pdto-section1-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding: 50px;
+    background: linear-gradient(to right, #f7b733, #fc4a1a);
+}
+
+.img-pdto-section1 {
+    width: 350px;
+}
+
+.title-pdto-section1 {
+    font-size: 25px;
+}
+
+.pdto-section1-left {
+    padding: 30px;
+}
+
+.title-pdto-section1 {
+    font-size: 24px;
+}
+
+.text-pdto-section1 {
+    font-weight: 300;
+    color: #8a8a8a;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.nav-content-pdto-section1-left {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-content-pdto-section1-left--right ,
+.nav-content-pdto-section1-left--left {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.btn-pdto-section1 {
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tag-a--btn-pdto-section1 ,
+.tag-a--btn-pdto-section2 {
+    color: #fff;
+}
+
+.icon-btn-pdto-section1 {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+.text-pdto-section1-left {
+    margin-top: 40px;
+    font-weight: 600;
+    color: #8a8a8a;
+}
+
+.pdto-section2 {
+    margin: 80px 0;
+}
+
+.nav-pdto-section2 {
+    border-top: 1px solid #4646467e;
+    padding-top: 80px;
+}
+
+.nav-pdto-section2 ,
+.nav-pdto-section3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav-content-pdto-section2-right ,
+.nav-content-pdto-section3-right {
+    width: 280px;
+    align-self: flex-start;
+    font-size: 15px;
+    color: #464646;
+}
+.nav-content-pdto-section2-center ,
+.nav-content-pdto-section2-left ,
+.nav-content-pdto-section3-center ,
+.nav-content-pdto-section3-left {
+    width: 360px;
+}
+
+.icon-pdto-section2 {
+    width: 60px;
+}
+
+.nav-title-content-pdto-section2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.text-content-pdto-section2 {
+    padding-right: 50px;
+    color: #8a8a8a;
+    margin-bottom: 15px;
+}
+
+.paragraph-content-pdto-section2 {
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #464646;
+    line-height: 28px;
+}
+
+.pdto-section3 {
+    background-color: #ececec79;
+    padding: 50px 0;
+}
+
+.img-icon-video-pdto-section-3 {
+    width: 300px;
+    border: 1px solid #4646462f;
+    border-radius: 10px;
+}
+
+.title-content-pdto-section3 {
+    color: #464646;
+    margin: 15px 0;
+}
+
+.paragraph-content-pdto-section3 {
+    color: #8a8a8a;
+    text-align: justify;
+}
+
+
+/* online taxi download button page styling codes ^ */
