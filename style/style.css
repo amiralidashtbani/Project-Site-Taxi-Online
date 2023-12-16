@@ -781,3 +781,88 @@ footer {
 
 
 /* online taxi download button page styling codes ^ */
+
+
+/* video page style codes -pv ==> */
+
+.pv-section1 {
+    padding: 80px;
+}
+
+.nav-pv-section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pv-img-section1 {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.pv-section2 {
+    margin-bottom: 100px;
+}
+
+.title-pv-section2 {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.pv-img-section2 {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.nav-pv-section2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-content-pv-section2 {
+    color: #464646;
+    margin-bottom: 10px;
+}
+
+.nav-strip-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-pv-section2-number-views-likes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.pv-section2-text-number-v-l {
+    margin-right: 10px;
+}
+
+.pv-section2-number-likes ,
+.pv-section2-number-views {
+    display: flex;
+}
+
+.mark-safiran {
+    color: #fff;
+    background-color: #2282ff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.mark-mosaferan {
+    color: #fff;
+    background-color: #d84011;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+
+/* video page style codes ^ */
+
