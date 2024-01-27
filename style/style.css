@@ -54,7 +54,7 @@
     display: block;
     color: #fff;
     padding: 10px 20px;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 5px;
     transition: all 0.3s;
 }
@@ -74,6 +74,19 @@
     padding: 15px 20px;
     border-radius: 10px;
 
+}
+
+.btn5 {
+    color: #fc4a1a;
+    border: 1px solid #fc4a1a;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn6 {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px 40px;
 }
 
 .container {
@@ -954,3 +967,365 @@ footer {
 
 
 /* style codes contact page ^ */
+
+
+/* style codes taxi pack page -tpp ==> */
+
+.nav-tpp-section1 {
+    display: grid;
+    grid-template-columns: 40% 60%; 
+}
+
+.tpp-section1-right {
+    background-color: #272727;
+    color: #fff;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tpp-title-section1 {
+    font-size: 40px;
+}
+
+.tpp-text-section1 {
+    font-family: vazir-fd;
+    font-size: 18px;
+}
+
+.nav-btn-tpp-section1 {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.tpp-btn-right-section1-right,
+.tpp-btn-left-section1-right {
+    transition: all 0.3s;
+}
+
+.tpp-btn-right-section1-right:hover,
+.tpp-btn-left-section1-right:hover {
+    box-shadow: 1px 1px 10px #ff5622b9;
+}
+
+.tag-a--tpp-btn-right-section1-right {
+    color: #fff;
+}
+
+.tag-a--tpp-btn-left-section1-right {
+    color: #fc4a1a;
+}
+
+.tpp-section1-left {
+    background-image: url(../img/img-section1-page-taxi-pack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 585px;
+}
+
+/* style codes taxi pack page ^ */
+
+
+/* style codes stock affairs page -sap ==> */
+
+.sap-header {
+    padding: 15px 0;
+}
+
+.nav-sap-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sap-menu-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sap-item-menu-header {
+    transition: all 0.2s;
+}
+
+.sap-item-menu-header:hover {
+    border-bottom: 2px solid #d84011;
+    color: #d84011;
+    padding-bottom: 5px;
+}
+
+.sap-btn-number-phone-header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sap-text-btn-number-phone-header {
+    font-family: vazir-fd;
+}
+
+.nav-sap-section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.sap-section1-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sap-title-section1-right {
+    position: relative;
+}
+
+.sap-title-section1-right::after {
+    content: "";
+    width: 150px;
+    border-top: 4px solid #fff;
+    position: absolute;
+    top: -25px;
+    right: 0;
+
+}
+
+.sap-section1-right-top,
+.sap-section1-right-bottom {
+    background-color: #fc4a1a;
+    color: #fff;
+    padding: 75px 20px;
+}
+
+.sap-btn-section1-right {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tag-a--sap-btn-section1-right {
+    color: #fff;
+}
+
+.sap-section2 {
+    margin: 50px 0 100px 0;
+}
+
+.nav-sap-section2-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.sap-title-section2-middle {
+    border-bottom: 1px solid #00000028;
+    font-size: 23px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+
+}
+
+.sap-title-section2-middle::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 88px;
+    border-bottom: 3px solid #d84011;
+}
+
+.sap-item-rows-section2-bottom {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 35px 0;
+    border-bottom: 1px solid #00000028;
+    cursor: pointer;
+}
+
+.sap-item-rows-section2-bottom--right {
+    min-width: 100px;
+}
+
+.sap-item-rows-section2-bottom--center {
+    min-width: 350px;
+}
+
+.sap-item-rows-section2-bottom-left {
+    min-width: 500px;
+}
+
+.img-sap-section3 {
+    padding: 250px 0;
+    background-image: url(../img/img-stock-affairs-page-section3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.sap-section4 {
+    margin: 100px 0;
+}
+
+.nav-sap-section4 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.sap-section4-right {
+    max-width: 600px;
+}
+
+.sap-section4-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-sap-section4-left {
+    margin-bottom: 10px;
+}
+
+.title-sap-section4-left {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.img-sap-section5 {
+    background-image: url(../img/img-stock-affairs-page-section5.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.box-sap-section5 {
+    position: absolute;
+    bottom: -60px;
+    left: 150px;
+    max-width: 470px;
+    background-color: #fc4a1a;
+    padding: 50px 40px 20px 40px;
+    color: #fff;
+}
+
+.title-box-sap-section5 {
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.text-box-sap-section5 {
+    margin-bottom: 40px;
+}
+
+.inp-box-sap-section5 {
+    direction: rtl;
+    border: 0;
+    outline: 0;
+    padding: 15px 20px;
+    min-width: 388px;
+    margin: 30px auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.btn-box-sap-section5 {
+    text-align: center;
+    color: #fc4a1a;
+    padding: 12px 20px;
+    max-width: 400px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.sap-section6 {
+    margin: 100px 0;
+}
+
+.nav-sap-section6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.title-sap-section6-right {
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.text-sap-section6-right {
+    margin-bottom: 30px;
+}
+
+.btn-sap-section6-right {
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+}
+
+.img-sap-section6-left {
+    width: 600px;
+}
+
+.sap-section7 {
+    margin: 40px;
+}
+
+.title-sap-section7 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.text-sap-section7 {
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+
+.nav-inp-box-sap-section7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inp-box-sap-section7-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inp-box-sap-section7-right-inputs {
+    min-width: 450px;
+    display: inline-block;
+    padding: 20px 10px;
+    outline: 0;
+    border: 1px solid #00000028;
+    border-radius: 10px;
+}
+
+.textarea-box-sap-section7-left {
+    resize:none;
+    outline: 0;
+    padding: 5px;
+    border: 1px solid #00000028;
+    border-radius: 10px;
+}
+
+.btn-box-sap-section7 {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* style codes stock affairs page ^ */
