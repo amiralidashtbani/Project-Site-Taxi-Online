@@ -351,7 +351,8 @@ footer {
     align-items: center;
 }
 
-.fa-angle-left , .link-section2-text {
+.icon-left-section2,
+.link-section2-text {
     color: #ff5722;
     font-size: 18px;
 }
@@ -1329,3 +1330,362 @@ footer {
 }
 
 /* style codes stock affairs page ^ */
+
+/* style codes Job opportunities page -jop ==> */
+
+.jop-section1 {
+    background-image: url(../img/img-background-Job-opportunities-page-section1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    color: #fff;
+    position: relative;
+}
+
+.nav-jop-section1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 120px;
+}
+
+.jop-section1-top {
+    margin-bottom: 100px;
+}
+
+.title-jop-section1-top {
+    font-size: 35px;
+}
+
+.jop-section-bottom {
+    max-width: 600px;
+}
+
+.text-jop-section1-bottom {
+    font-size: 20px;
+}
+
+.btn-jop-section1-bottom {
+    display: inline-block;
+    background-color: #fff;
+    color: #ff5722;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.jop-section2 {
+    margin: 50px 0;
+}
+
+.title-jop-section2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.jop-section2-left-section-item {
+    display: flex;
+    gap: 50px;
+}
+
+.img-item-jop-section2 {
+    width: 400px;
+}
+
+.jop-section2-left {
+    max-width: 600px;
+}
+
+.title-jop-section2-left {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #0f1031;
+}
+
+.text-jop-section2-left {
+    font-size: 19px;
+    color: #464646;
+}
+
+.nav-item-jop-section2-left {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.item-jop-section2-left {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.jop-section2-left-item2 {
+    display: none;
+}
+
+.jop-section2-left-item3 {
+    display: none;
+}
+
+.jop-section2-left-item4 {
+    display: none;
+}
+
+.jop-section3 {
+    margin-top: 150px;
+}
+
+.title-jop-section3 {
+    margin-bottom: 30px;    
+    text-align: center;
+    font-size: 28px;
+}
+
+.nav-items-jop-section3 {
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    justify-content: center;
+    margin-right: 10%;
+}
+
+.item-jop-section3 {
+    width: 150px;
+    text-align: center;
+}
+
+.img-item-jop-section3 {
+    width: 100px;
+}
+
+.jop-section4 {
+    margin-top: 150px;
+}
+
+.title-jop-section4 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.nav-video-jop-section4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.video-jop-section4 {
+    display: inline-flex;
+    width: 300px;
+    border: 1px solid #4646462f;
+    border-radius: 10px;
+}
+
+.jop-section5 {
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.title-jop-section5 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text-jop-section5 {
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text-jop-section5::before {
+    content: '26';
+    width: 100px;
+    background-color: #f8d4c5;
+    color: #fc4a1a;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.nav-items-jop-section5 {
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.item-jop-section5 {
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #00000005;
+    color: #fc4a1a;
+    transition: all 0.2s;
+}
+
+.item-jop-section5:hover {
+    background-color: #00000010;
+}
+
+.btn-jop-section5 {
+    margin-top: 50px;
+}
+
+.jop-section6 {
+    margin-top: 150px;
+}
+
+.title-jop-section6 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.nav-items-jop-section6 {
+    display: flex;
+    justify-content: center;   
+}
+
+.item-jop-section6 {
+    width: 150px;
+    text-align: center;
+}
+
+.icon-item-jop-section6 {
+    background-color: #484cc233;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.jop-section7 {
+    margin-top: 150px;
+}
+
+.title-jop-section7 {
+    margin-bottom: 50px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.nav-boxs-jop-section7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box-jop-section7 {
+    text-align: center;
+    background-color: #ff56221a;
+    padding: 30px 15px;
+    border-radius: 10px;
+}
+
+.img-user-jop-section7 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.title1-box-jop-section7,
+.title2-box-jop-section7 {
+    margin-bottom: 5px;
+    font-weight: 200;
+}
+
+.text-link-box-jop-section7 {
+    color: #fc4a1a;
+}
+
+.icon-jop-section7::before {
+    font-size: 40px;
+    color: #464646;
+}
+
+.jop-section8 {
+    margin-top: 150px;
+}
+
+.title-jop-section8 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.box-jop-section8 {
+    width: 700px;
+    border: 3px solid #00000028;
+    border-radius: 10px;
+    padding: 20px 25px;
+    box-shadow: 2px 2px 30px #00000028;
+    margin: 0 auto;
+}
+
+.section-information-user-box-jop-section8 {
+    display: flex;
+    align-items: center;
+}
+
+.img-user-box-jop-section8 {
+    width: 60px;
+    border-radius: 100%;
+}
+
+.nav-title-box-jop-section8 {
+    margin-right: 20px;
+}
+
+.title1-box-jop-section8 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.title2-box-jop-section8 {
+    color: #4646467e;
+}
+
+.paragraph-box-jop-section8 {
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.jop-section9 {
+    margin: 150px 0;
+}
+
+.nav-jop-section9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.img-jop-section9 {
+    width: 350px;
+}
+
+.jop-section9-left {
+    width: 600px;
+}
+
+.title-jop-section9-left {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.text-jop-section9-left {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #464646;
+}
+
+/* style codes Job opportunities page ^ */
