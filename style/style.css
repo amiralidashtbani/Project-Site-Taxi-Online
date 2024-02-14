@@ -162,6 +162,10 @@ footer {
     align-items: center;
 }
 
+.menu-hambergeri {
+    display: none;
+}
+
 .item-menu-header {
     color: rgba(0, 0, 0, 0.686);
     transition: all 0.2s;
@@ -484,10 +488,16 @@ footer {
     color: #fff;
 }
 
+.nav-btn-section5 {
+    display: flex;
+    align-items: c;
+}
+
 .btn-section5 {
     margin: 50px 0px 50px 20px;
     transition: all 0.3s;
 }
+
 
 .btn-section5:hover {
     background-color: #2282ffc4;
@@ -1689,3 +1699,318 @@ footer {
 }
 
 /* style codes Job opportunities page ^ */
+
+
+
+
+
+
+
+
+ /* <== << Responsive pages >> ==> */
+
+ /* >> Responsive codes for the main page ==> */
+
+ @media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .logo-title {
+        font-size: 20px;
+    }
+
+    .item-menu-header {
+        font-size: 15px;
+    }
+
+    .btn4-section5-a {
+        font-size: 12px;
+    }
+
+    .btn-section5 {
+        padding: 10px;
+    }
+
+    .header-title {
+        font-size: 30px;
+    }
+
+    .header-text {
+        font-size: 18px;
+    }
+    
+    .section-title-text {
+        font-size: 28px;
+    }
+
+    .title-section7 {
+        font-size: 30px;
+    }
+
+ }
+
+ @media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .btn-header {
+        display: none;
+    }
+
+    .logo-title {
+        font-size: 18px;
+    }
+
+    .item-menu-header {
+        font-size: 13px;
+    }
+
+    .header-title {
+        font-size: 25px;
+    }
+
+    .header-text {
+        font-size: 15px;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    .section-title-text {
+        font-size: 25px;
+    }
+    
+    .item {
+        font-size: 13px;
+    }
+
+    .item-img {
+        width: 80px;
+    }
+
+    .text-description-item,
+    .text-description-section {
+        font-size: 15px;
+    }
+
+    .img-description,
+    .img-section {
+        width: 300px;
+    }
+
+    .title-s4-item {
+        font-size: 18px;
+    }
+
+    .content-s4-item {
+        font-size: 14px;
+    }
+
+    .btn-section5 {
+        margin-left: 10px;
+    }
+    
+    .title-section6 {
+        font-size: 30px;
+    }
+
+    .img-item1-section6 {
+        width: 200px;
+        height: 100px;
+        margin-bottom: 0px;
+    }
+
+    .title-item-section6 {
+        font-size: 18px;
+    }
+    
+    .text-item-section6 {
+        font-size: 13px;
+    }
+    
+    .section {
+        margin-top: 100px;
+    }
+    
+    .title-section7 {
+        font-size: 25px;
+    }
+
+    .text-fa-item-section7 {
+        font-size: 14px;
+    }
+
+    .text-eng-item-section7 {
+        font-size: 12px;
+    }
+
+    .logo-footer {
+        font-size: 25px;
+    }
+ }
+
+ @media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .menu-header {
+        display: none;
+    }
+
+    .menu-hambergeri {
+        display: block;
+    }
+    
+    .header-right-box {
+        max-width: 310px;
+        text-align: center;
+    }
+
+    .header-btn-right {
+        justify-content: center;
+    }
+
+    .header-bottom-container {
+        justify-content: center;
+    }
+
+    .section {
+        margin-top: 50px;
+    }
+
+    .section-title-text {
+        font-size: 20px;
+    }
+
+    .title-description-item {
+        font-size: 16px;
+    }
+
+    .img-description {
+        display: none;
+    }
+    
+    .text-description-item,
+    .text-description-section {
+        padding-left: 0px;
+    }
+
+    .nav-content-section {
+        flex-direction: column;
+    }
+
+    .section-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .btn-section2,
+    .btn-section3 {
+        font-size: 14px;
+    }
+
+    .title-s4-item {
+        font-size: 14px;
+    }
+
+    .content-s4-item  {
+        font-size: 12px;
+    }
+
+    .s4-item1::after, .s4-item2::after, .s4-item3::after {
+        content: none;
+    }
+
+    .nav-content-section4 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section-4 {
+        padding: 30px 0px;
+    }
+
+    .nav-content-section5 {
+        flex-direction: column-reverse;
+    }
+
+    .img-section-5 {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .title-section6 {
+        font-size: 25px;
+    }
+
+    .nav-item-section6 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-item1-section6 {
+        width: 400px;
+        height: 200px;
+        align-self: center;
+    }
+
+
+    .nav-item-section7 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+ }
+
+ @media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .item-nav {
+        overflow: auto;
+        padding: 10px;
+    }
+
+    .img-section-5 {
+        width: 300px;
+        margin: 0 0 10px 0;
+    }
+
+    .img-item1-section6 {
+        width: 300px;
+        height: 150px;
+    }
+ }
+
+
+
+
+
+ /* >> Responsive codes for the video page ==> */
+
+
+ @media only screen and (max-width: 1200px) {
+    
+ }
+
+ @media only screen and (max-width: 992px) {
+
+ }
+
+ @media only screen and (max-width: 768px) {
+
+ }
+
+ @media only screen and (max-width: 576px) {
+
+ }
+
+
+
+ 
