@@ -26,6 +26,7 @@
 }
 
 
+
 /* classes BEM ==> */
 
 .btn {
@@ -162,7 +163,7 @@ footer {
     align-items: center;
 }
 
-.menu-hambergeri {
+.menu-hambergeri::before {
     display: none;
 }
 
@@ -672,15 +673,11 @@ footer {
 }
 
 .title-pdto-section1 {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .pdto-section1-left {
     padding: 30px;
-}
-
-.title-pdto-section1 {
-    font-size: 24px;
 }
 
 .text-pdto-section1 {
@@ -1348,7 +1345,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 500px;
     color: #fff;
     position: relative;
 }
@@ -1357,7 +1354,7 @@ footer {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 120px;
+    top: 100px;
 }
 
 .jop-section1-top {
@@ -1397,11 +1394,12 @@ footer {
 
 .jop-section2-left-section-item {
     display: flex;
+    align-items: center;
     gap: 50px;
 }
 
 .img-item-jop-section2 {
-    width: 400px;
+    width: 100%;
 }
 
 .jop-section2-left {
@@ -1562,7 +1560,8 @@ footer {
 
 .nav-items-jop-section6 {
     display: flex;
-    justify-content: center;   
+    justify-content: center;  
+    gap: 30px;
 }
 
 .item-jop-section6 {
@@ -1683,7 +1682,7 @@ footer {
 }
 
 .jop-section9-left {
-    width: 600px;
+    width: 100%;
 }
 
 .title-jop-section9-left {
@@ -1861,7 +1860,7 @@ footer {
         display: none;
     }
 
-    .menu-hambergeri {
+    .menu-hambergeri::before {
         display: block;
     }
     
@@ -1991,26 +1990,425 @@ footer {
 
 
 
-
  /* >> Responsive codes for the video page ==> */
 
 
  @media only screen and (max-width: 1200px) {
+    .pv-img-section1 {
+        width: 400px;
+    }
+ }
+
+ @media only screen and (max-width: 992px) {
+    .pv-img-section1 {
+        width: 300px;
+    }
+
+    .title-pv-section2 {
+        font-size: 30px;
+    }
+
+    .nav-pv-section2 {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+ }
+
+ @media only screen and (max-width: 768px) {
+    .nav-pv-section1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pv-img-section1 {
+        width: 500px;
+    }
+ }
+
+ @media only screen and (max-width: 576px) {
+ .pv-img-section1 {
+        width: 350px;
+    }
+ }
+
+
+ 
+
+ /* >> Responsive codes for the contact page ==> */
+
+ @media only screen and (max-width: 992px) {
+    .nav-cp-section1 {
+        flex-direction: column;
+        gap: 50px;
+    }
+ }
+
+ @media only screen and (max-width: 768px) {
+    .title-cp-section1 {
+        text-align: center;
+    }
+ }
+
+ @media only screen and (max-width: 576px) {
+    .img-place-cp-section1 {
+        width: 300px;
+        height: 200px;
+    }
+
+    .cp-section1-left {
+        min-width: 335px;
+    }
+ }
+
+
+
+ /* >> Responsive codes for the stock affairs page ==> */
+
+
+ @media only screen and (max-width: 1200px) {
+    .video-stock-affairs-page-section1 {
+        width: 650px;
+    }
+
+    .sap-section1-right-top,
+    .sap-section1-right-bottom {
+        padding: 50px 20px;
+    }
+
+    .sap-item-rows-section2-bottom {
+        gap: 0px;
+    }
+
+    .textarea-box-sap-section7-left {
+        width: 450px;
+        height: 140px;
+    }
     
  }
 
  @media only screen and (max-width: 992px) {
+    .btn6 {
+        padding: 8px 15px;
+    }
 
+    ul li {
+        margin: 0 15px;
+    }
+
+
+    .sap-section1-right-top, 
+    .sap-section1-right-bottom {
+        padding: 30px 10px;
+    }
+
+    .video-stock-affairs-page-section1 {
+        width: 464px;
+    }
+    
+    .sap-title-section1-right {
+        font-size: 25px;
+    }
+
+    .sap-title-section2-middle {
+        font-size: 20px;
+    }
+
+    .sap-item-rows-section2-bottom--right {
+        min-width: 80px;
+        font-size: 13px;
+    }
+
+    .sap-item-rows-section2-bottom--center {
+        min-width: 215px;
+        font-size: 14px;
+    }
+
+    .sap-item-rows-section2-bottom-left {
+        min-width: 254px;
+        font-size: 13px;
+    }
+
+    .sap-section4-right {
+        max-width: 400px;
+    }
+
+    .img-sap-section6-left {
+        width: 400px;
+    }
+
+    .inp-box-sap-section7-right-inputs {
+        min-width: 320px;
+    }
+
+    .textarea-box-sap-section7-left {
+        width: 363px;
+    }
+
+    
  }
 
  @media only screen and (max-width: 768px) {
+    .sap-menu-header {
+        display: none;
+    }
 
+    .sap-btn-number-phone-header {
+        display: none;
+    }
+
+    .sap-section1-right {
+        gap: 10px;
+    }
+
+    .nav-sap-section1 {
+        flex-direction: column;
+    }
+
+    .video-stock-affairs-page-section1 {
+        width: 523px;
+    }
+
+    .sap-item-rows-section2-bottom--center {
+        min-width: 175px;
+    }
+
+    .sap-section4-right {
+        max-width: 270px;
+    }
+
+    .title-box-sap-section5 {
+        font-size: 22px;
+    }
+
+    .text-box-sap-section5 {
+        font-size: 15px;
+    }
+
+    .inp-box-sap-section5 {
+        min-width: 345px;
+    }
+
+    .btn-box-sap-section5 {
+        max-width: 345px;
+    }
+
+    .box-sap-section5 {
+        padding: 25px 40px;
+        left: 10%;
+    }
+
+    .nav-sap-section6 {
+        flex-direction: column;
+    }
+
+
+    .nav-inp-box-sap-section7 {
+        flex-direction: column;
+        gap: 15px;
+    }
  }
 
  @media only screen and (max-width: 576px) {
+    .video-stock-affairs-page-section1 {
+        width: 100%;
+    }
 
+    .sap-item-rows-section2-bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-sap-section4 {
+        flex-direction: column;
+    }
+
+    .box-sap-section5 {
+        position: relative;
+        right: -1%;
+        
+    }
+
+    .inp-box-sap-section5 {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .btn-box-sap-section5 {
+        width: 100%;
+    }
+
+    .img-sap-section6-left {
+        width: 100%;
+    }
+
+    .sap-section6 {
+        margin: 160px 0;
+    }
+
+    .inp-box-sap-section7-right-inputs {
+        min-width: 0;
+    }
+
+    .textarea-box-sap-section7-left {
+        width: 100%;
+    }
  }
 
 
-
  
+ /* >> Responsive codes for the taxi pack page ==> */
+
+
+ @media only screen and (max-width: 992px) {
+    .tpp-title-section1 {
+        font-size: 30px;
+    }
+
+    .nav-tpp-section1 {
+        grid-template-columns: 45% 55%;
+    }
+ }
+
+ @media only screen and (max-width: 768px) {
+    .nav-tpp-section1 {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .tpp-section1-right {
+        padding: 60px 0;
+    }
+ }
+
+
+ /* >> Responsive codes for the job opportunities page ==> */
+
+
+ @media only screen and (max-width: 768px) {
+    .title-jop-section1-top {
+        font-size: 30px;
+    }
+
+    .text-jop-section1-bottom {
+        font-size: 18px;
+    }
+
+    .item-jop-section2-left {
+        font-size: 15px;
+    }
+
+    .nav-items-jop-section3 {
+        grid-template-columns: repeat(2,200px);
+    }
+
+
+    .nav-video-jop-section4 {
+        flex-direction: column;
+    }
+
+    .nav-items-jop-section5 {
+        grid-template-columns: repeat(2,200px);
+    }
+
+    .item-jop-section5 {
+        width: 200px;
+    }
+
+    .nav-items-jop-section6 {
+        overflow: auto;
+    }
+
+    .nav-boxs-jop-section7 {
+        flex-direction: column;
+    }
+
+    .icon-jop-section7::before {
+        display: none;
+    }
+
+    .box-jop-section8 {
+        width: 100%;
+    }
+
+    .img-jop-section9 {
+        width: 100%;
+    }
+
+    .nav-jop-section9 {
+        flex-direction: column;
+    }
+ }
+ 
+ @media only screen and (max-width: 576px) {
+    .jop-section1 {
+        height: 550px;
+    }
+
+    .jop-section2-left-section-item {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .nav-item-jop-section2-left {
+        gap: 20px;
+    }
+
+    .nav-items-jop-section5 {
+        grid-template-columns: repeat(1,200px);
+        gap: 20px;
+    }
+
+    .paragraph-box-jop-section8 {
+        margin-right: 0px;
+    }
+ }
+
+
+ /* >> Responsive codes for the online taxi download button page ==> */
+
+
+ @media only screen and (max-width: 1200px) {
+    .nav-content-pdto-section1-left {
+        flex-direction: column;
+    }
+
+    .btn-pdto-section1 {
+        max-width: 400px;
+    }
+
+    .nav-content-pdto-section1-left--right,
+    .nav-content-pdto-section1-left--left {
+        margin-top: 10px;
+    }
+
+    .nav-pdto-section2,
+    .nav-pdto-section3 {
+        gap: 30px;
+    }
+ }
+
+ @media only screen and (max-width: 768px) {
+    .pdto-section1-right {
+        display: none;
+    }
+
+    .pdto-section1-left {
+        padding: 30px 100px;
+    }
+
+    .nav-pdto-section2, 
+    .nav-pdto-section3 {
+        gap: 50px;
+    }
+ }
+
+ @media only screen and (max-width: 576px) {
+    .pdto-section1-left {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .btn-pdto-section1 {
+        text-align: center;
+    }
+ }
